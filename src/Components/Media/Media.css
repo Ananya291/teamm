@@ -1,6 +1,6 @@
 .media_component{
-    width: 1105px;
-    height: 610px;
+    width: 100%;
+    height: auto;
     background-color: #F1F0C0;
     display: flex;
     margin-top: 40px;
