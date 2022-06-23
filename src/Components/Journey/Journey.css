@@ -1,0 +1,163 @@
+.journey_component{
+    margin-top: 90px;
+}
+
+.main_heading{
+    font-size: 55px;
+    margin-bottom: 60px;
+    margin-top: -40px;
+}
+
+.journey_main{
+    display:flex;
+}
+
+.journey_left{
+    cursor: pointer;
+    flex: 30%;
+    margin-right: 40px;
+}
+
+.journey_right{
+    flex: 80%;
+    margin-left: -8px;
+}
+
+/* .journey_left_gif{
+    width: 400px; 
+    height: 400px;
+   
+}
+
+.journey_left_gif:hover{
+    width: 420px;
+    height: 420px;
+} */
+
+.journey_right_top{
+    height: 330px;
+    cursor: pointer;
+}
+
+.journey_right_bottom{
+    cursor: pointer;
+    display: flex;
+    margin-top: 60px;
+    height: 300px;
+}
+
+.journey_content_righttop{
+    height: 310px;
+    padding: 10px 25px;
+    background-color: #CDF0EA;
+}
+
+.journey_left_heading{
+    font-size: 28px;
+    color: #EC9B3B;
+}
+
+.journey_left_subheading{
+    font-size: 18px;
+}
+
+.journey_righttop_heading{
+    margin-top: -1px;
+    color: #4B8673;
+    font-size: 28px;
+}
+
+.journey_content_left{
+    background-color: #FFF2F2;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.journey_content_leftbottom{
+    background-color: #F9F9F9;
+    padding: 15px 15px;
+}
+
+.journey_leftbottom_heading{
+    font-size: 28px;
+    color: #354259;
+}
+
+.journey_gif1{
+    width: 400px; 
+    height: 400px;
+    transition: width 2s, height 4s;
+}
+
+.journey_gif1:hover{
+    width: 420px;
+    height: 420px;
+}
+
+.journey_gif3{
+    width: 280px; 
+    height: 300px;
+}
+
+@media only screen and (max-width: 700px) {
+    .journey_component{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .journey_main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .journey_gif1{
+        width: 100%; 
+        height: auto;
+    }
+    .journey_gif1:hover{
+        width: 320px;
+        height: 320px;
+    }
+    .journey_right_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .journey_content_righttop{
+        height: auto;
+    }
+    .journey_rightbottom_gif {
+        width: 100%;
+    }
+    .journey_right_top{
+        height: auto;
+        width: 100%;    
+    }
+    .journey_rightbottom_gif{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .journey_left{
+        cursor: pointer;
+        flex: 1;
+        margin-right: 0;
+    }
+    .journey_gif3 {
+        margin-top: 50px;
+    }
+    .journey_right {
+       margin: 0;
+    }
+    .journey_content_left {
+        margin: 20px 0;
+    }
+} 
