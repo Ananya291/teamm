@@ -1,13 +1,19 @@
 import React from 'react'
 import './Nav.css'
 import logo from './logo.png'
+import { useNavigate } from 'react-router-dom'
 
 function Nav() {
+    const navigate = useNavigate()
+    function redirectToHome(){
+        navigate('/')
+    }
+
     return (
         <div className='nav_container'>
             <div className='nav_container_inside'>
                 <a className='logo_container' href='#Banner'>
-                    <img className='logo' src={logo} />
+                    <img onClick={redirectToHome} className='logo' src={logo} />
                 </a>
                 <div className='nav_menu_container'>
                     <div className='nav_menu'>
