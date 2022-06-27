@@ -33,10 +33,41 @@ hr{
     margin-right: 5px;
 }
 
-.footer_bottom{
-    margin-top: 70px;
-    font-size: 10px;
+.footer_conditions{
+    display: flex;
+    padding-left: 350px;
+    margin-top: 20px;
+}
+
+.conditions1, .conditions2, .conditions3, .conditions4{
+    margin: 10px;
+    font-size: 12px;
     color: gray;
+}
+
+.conditions1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.conditions2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.conditions3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.conditions4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_bottom{
+    font-size: 10px;
+    color: rgb(77, 76, 76);
 }
 
 .footer_icon_element:hover {

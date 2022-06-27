@@ -4,8 +4,26 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+  const navigate = useNavigate()
+  function redirectToTnc() {
+    navigate('/tnc')
+  }
+
+  function redirectToPrivacy() {
+    navigate('/privacy')
+  }
+
+  function redirectToCP() {
+    navigate('/cp')
+  }
+
+  function redirectToRefund() {
+    navigate('/refund')
+  }
+
   return (
     <div className="footer_component">
       <div className="footer_main">
@@ -24,6 +42,12 @@ function Footer() {
           <a href="https://www.linkedin.com/company/team-buy/?viewAsMember=true" target="_blank">
             <LinkedInIcon className="icon4 footer_icon_element" />
           </a>
+        </div>
+        <div className="footer_conditions">
+          <h3 className="conditions1" onClick={redirectToTnc}>Terms & Condition</h3>
+          <h3 className="conditions2" onClick={redirectToPrivacy}> Privacy</h3>
+          <h3 className="conditions3" onClick={redirectToCP}>Cancellation Policy</h3>
+          <h3 className="conditions4" onClick={redirectToRefund}>Refund Policy</h3>
         </div>
         <h3 className="footer_bottom">
           © 2022 D AND S INNOVATIVE RETAIL PRIVATE LIMITED

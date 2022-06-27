@@ -11,7 +11,7 @@
 }
 
 .Banner_text{
-    flex: 30%;
+   flex: 30%;
    padding: 0 20px;
    margin-top: -40px;
 }
@@ -19,7 +19,7 @@
 .banner_image{
     flex: 70%;
     width: 100%;
-    height: auto; 
+    height: 80vh; 
 }
 
 .banner_image1{
