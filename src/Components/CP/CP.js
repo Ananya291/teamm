@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './CP.css'
 
 function CP() {
+    useEffect(() => {
+        window.scrollTo(0,0)
+       },[])
     return (
         <div className='cp_main'>
             <section class="font-1 py-0">

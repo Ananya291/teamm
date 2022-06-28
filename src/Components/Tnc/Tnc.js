@@ -1,7 +1,12 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import './Tnc.css'
 
+
 function Tnc() {
+   useEffect(() => {
+    window.scrollTo(0,0)
+   },[])
+
   return (
     <div className="tnc_main">
       <section class="font-1 py-0">

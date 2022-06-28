@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Refund.css'
 
 function Refund() {
+    useEffect(() => {
+        window.scrollTo(0,0)
+       },[])
     return (
         <div className='refund_main'>
             <section class="font-1 py-0">
