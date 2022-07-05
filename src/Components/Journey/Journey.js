@@ -27,17 +27,15 @@ function Journey() {
 
           <div className='journey_right_top'>
             <div className='journey_righttop_gif'>
-              
+
             </div>
 
             <div className='journey_content_righttop'>
               <h2 className='journey_righttop_heading'>Our Growth</h2>
               <p className='journey_righttop_subheading'>
-                Since then Teambuy has grown to a community of 13000 + customers and has completed more than 30k orders.<br />
-                MoM growth of 58% inGroup buying revenue has given us the validation we needed to move forward.<br />
-                Based on the Customer feedback we have upgraded our UI by making team formation simpler and<br />
-                more convenient through AI led product discovery & Gamification.<br />
-                The Teambuy mobile App is currently under Beta testing and will be launching soon.
+                Since the launch in July 2021 , Teambuy has been greatly loved & admired by its customers.
+                Teambuy is present in all 23 pin codes of Jaipur & soon will be expanding to nearby towns.
+                With more than 100000 MAU , we have helped our customers save more than INR 2 Million
               </p>
             </div>
 
@@ -46,9 +44,11 @@ function Journey() {
           <div className='journey_right_bottom'>
 
             <div className='journey_content_leftbottom'>
-              <h2 className='journey_leftbottom_heading'>Why to choose us?</h2>
-              <p className='journey_leftbottom_subheading'> A Social commerce platform which could lead the E-commerce 3.0 revolution has arrived.<br />
-                Teambuy is on track to become the first choice for the next 500Mn online consumers of Bharat.</p>
+              <h2 className='journey_leftbottom_heading'>Why Teambuy ?</h2>
+              <p className='journey_leftbottom_subheading'> Teambuy brings a wide curation of products at unbelievable prices
+                under its group buying program where customers can either create their teams or join an existing one.
+                This helps the entire team save upto 80% on products and get other exciting rewards only on Teambuy.
+                Why just buy when you can Teambuy. </p>
             </div>
 
             <div className='journey_rightbottom_gif'>

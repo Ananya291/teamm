@@ -8,11 +8,10 @@ function About() {
         <div className="StatisticsNew_left">
           <h1 className="StatisticsNew_heading">About Us</h1>
           <h3 className="StatisticsNew_subheading">
-            Welcome to TeamBuy, an endeavour to make E-commerce more social,
-            pocket friendly, fun,interactive and quick. TeamBuy’s AI-led product
-            discovery and team formation enables you purchase in groups and
-            hence let’s you avail highest discounts possible while giving you a
-            shopping mall like experience all from the comfort of your home.
+            Welcome to TeamBuy, an endeavour to make E-commerce more social, pocket friendly, fun,interactive and quick.
+            TeamBuy’s AI & gamification led Interface enables product discovery and
+            Group Buying and helps you to avail highest discounts & rewards while giving you a mall
+            like experience all from the comfort of your home !
           </h3>
         </div>
 

@@ -8,7 +8,8 @@ function Career() {
             <h1 className='career_heading'>Career</h1>
             <div className='career_main'>
                 <div className='career_right'>
-                    <p className='career_text'>If you’re passionate about working in the E-commerce space and want to disrupt the current trends of E-commerce in India ,<br />
+                    <p className='career_text'>If you’re passionate about working in the up and coming Social commerce space and
+                        want to disrupt the current trends of E-commerce,
                         please write to us on <span className='career_site'>careers@teambuy.co.in </span></p>
                 </div>
                 <div className='career_left'>
