@@ -31,7 +31,7 @@ function Journey() {
             </div>
 
             <div className='journey_content_righttop'>
-              <h2 className='journey_righttop_heading'>Our Growth</h2>
+              <h2 className='journey_righttop_heading'>Growth</h2>
               <p className='journey_righttop_subheading'>
                 Since the launch in July 2021 , Teambuy has been greatly loved & admired by its customers.
                 Teambuy is present in all 23 pin codes of Jaipur & soon will be expanding to nearby towns.
